@@ -1,0 +1,170 @@
+@media all and (min-width:35em) and (max-width:60em) {}
+
+  .masthead h1{
+    width: 100%;
+    background: #000 url("http://media1.santabanta.com/full1/Animals/Cats/cats-85a.jpg") no-repeat 50% 50%;
+}  
+.content{
+  width: 63%;
+  display: inline;
+  float: left;
+  margin: 0px;
+  -webkit-column-count: 2;
+  moz-column-count: 2;
+  column-count: 2;
+}
+
+.side{
+  float: right;
+  width:37%;
+  
+  
+}
+  
+header{
+  color: red;
+  font-family: Courier New;
+ 
+}
+
+
+body {
+  color: Black;
+  font-family: Verdana;
+  line-height: 2;
+ 
+}
+
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+html body{
+  background: yellow;
+}
+wrapper{
+  width: 75%;
+  margin: auto;
+  
+  
+}
+
+mainnav{
+  
+  width: 50%;
+  float: left;
+  text-align:center;
+  margin: 0;
+  padding:0;
+  
+ 
+
+}
+
+.mainnav li{
+  display:inline;
+}
+
+.mainnav a {
+  display:inline-block;
+  padding: 10px
+}
+footer{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (min-width: 0em) and (max-width: 35em){
+  
+  .masthead h1{
+    url("http://media1.santabanta.com/full1/Animals/Cats/cats-85a.jpg") no-repeat 50% 50%;
+}  
+
+  
+{
+  html {
+    background: yellow;
+        font-family: Verdana;
+  }
+  
+  header{
+  color: red;
+  font-family: Courier New;
+  
+  }
+  
+  
+  .content{
+  display: inline;
+  float: center;
+ 
+    
+  }
+  body {
+  color: Red;
+  font-family: Verdana;
+    
+   }
+  
+
+ img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+div {
+  -webkit-column-count: 1;
+}
+  
+  
+
+
+
+
+}
+}
+
+@media and all (min-width:60em) and (max-width:100em)
+{
+  header{
+  color: red;
+  font-family: Courier New;
+  background: black;
+  }
+  
+  
+  .content{
+  display: inline;
+  float: left;
+  
+    
+  }
+  body {
+  color: Blac;
+  font-family: Verdana;
+    
+   }
+
+.mainnav{
+  background: black;
+  
+  
+}
+ img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+div {
+  -webkit-column-count: 4;
+  -webkit-column-width: 25%
+}
+  
+
+
+}
